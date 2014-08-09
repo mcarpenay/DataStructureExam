@@ -1,0 +1,100 @@
+Data Structure Definition:
+
+
+1) why do we need data structure?
+We need data structures to organize data in a program and in storage inorder to search, insert, delete and sort data in an
+efficient way
+
+answer:
+
+2) List out the areas in which data structures are applied extensively?
+Real world data storage
+Programmer Tools
+Modeling
+
+3) what is an Array?
+An array is a contagious block of memory used to store objects of the same type and size  
+
+4) what is the difference between the Array and ArrayList?
+An array has a fixed size defined at instantiation while an ArrayList can resize 
+dynamically growing to accommodate new added data or shrink on the deletion of data.
+
+5) what is LinkedList?
+A LinkedList is a data structure that is composed of a group of nodes linked together by pointers where each node know the location of the next and the previous node only.
+Unlike an array a link list does not require a contagious block of memory  
+
+6) what is queue?
+A queue is a FIFO data structure 
+
+7) what is stack?
+A stack is a LIFO data structure
+
+8) what is FIFO and LIFO?
+First in first out and last in first out
+
+9) what is the order of complexity?
+Uses Big-O notation to measure the time and space required to perform an operation using a 
+ given data structure.
+
+10)what is the best case to search an element from an array?O(1)
+
+11)what is the worst case to search an element from an array?O(n)
+
+12) what is tree in data structure?
+A tree is a data structure that emulates a 
+hierarchical tree structure composed of linked nodes. A tree is an acyclic connected
+ graph with each node having zero or more children nodes and at most one parent node
+ with the exception of the root node which does not have any parent nodes.  
+
+13) what is graph in data structure?
+Graphs often have a shape dictated by a physical or abstract problem and are composed of two set of elements 
+nodes and edges with the nodes being interconnected with edges. Graphs may be 
+directed, non-directed and weighted 
+
+14) what is the difference between the HashTable and HashMap?
+
+15) What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+    Binary tree and Graph
+    
+16) How HashMap works in java?
+Is a data structure that use a key value pair system to archive and retrieve data where the 
+key can be of any data/object type and used to reference any data/object type, data value 
+stored in the HashMap. Underlying the HashMap uses a hashing function to store an retrieve 
+data.  
+
+17)What is Big-(O)-notation?
+ Big-(O)-notation is a shorthand way to say how efficient a computer algorithm is
+
+18)Outlined different kind of sorting algorithm with time complexity?
+   Selection Sort	O(N^2)
+   Insertion Sort   O(N^2)
+   Bubble Sort      O(N^2)
+   Merge Sort      O(N*logN)
+   
+    
+19) Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of adding element.
+  b)In terms of removing element.
+  c)In terms of searching element.
+
+	Data Structure     Adding Element     Removing Element  Searching Element
+Array                        O(1)                               O(N)
+Ordered Array
+Stack                        
+Queue
+Linked List
+Binary Tree
+Red-Black Tree
+2-3-4 Tree
+Hash Table
+Heap
+Graph
+
+
+
+
+
+
+
+
+
